@@ -1,0 +1,200 @@
+@charset "utf-8";
+.kiji h1 {
+	font-size: 40px;
+}
+.kiji p {
+	font-size: 20px;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.container-fluid{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.catch {
+    color: #FFFFFF;
+    position: absolute;
+    left: 37px;
+    bottom: 100px;
+    background-color: rgba(45,99,139,0.42);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.catch h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.catch h1 {
+    font-size: 27px;
+}
+
+.header-image {
+    background-image: url("images/IMG_5181.JPG");
+    background-size: cover;
+	height: 380px;
+}
+.row.header-contents > .col-sm-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer-copyright {
+    background-color: #555555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.footer-info {
+    margin-left: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+    background-color: #FFFFFF;
+}
+.footer-copyright .col-sm-12 p{
+	text-align: center;
+}
+.container-fluid .col-sm-12 {
+    margin-top: 20px;
+}
+#area1 .col-sm-6 {
+    background-color: #EDE5E6;
+    border-radius: 36px;
+    margin-right: 0px;
+	border: solid 5px #CFB9BC;
+}
+
+#area2 img {
+    margin-top: 20px;
+}
+#area3 .col-sm-6 {
+    margin-top: 20px;
+}
+.col-sm-6 #area3 {
+    margin-top: -20px;
+}
+
+table tr td {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #6297B2;
+    border: 3px solid #636363;
+    color: #FFFFFF;
+    padding-top: 13px;
+    padding-right: 25px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+body {
+}
+table tr .setumei {
+    padding-left: 15px;
+
+}
+
+#area2 p {
+    margin-top: 70px;
+    font-size: 18px;
+}
+#area2 p span {
+    font-size: 23px;
+}
+#area3 .col-sm-12 .katei {
+    font-size: 18px;
+}
+table tr .setumei {
+
+}
+#area1 .col-sm-6 p {
+    font-size: 18px;
+}
+.col-sm-6 ul li {
+    font-size: 18px;
+}
+.setumei {
+    font-size: 18px;
+}
+.col-sm-6 h3 {
+    font-family: Osaka-mono, "MS Gothic", monospace;
+}
+
+
+
+@media (max-width: 1050px){
+.contents3 .col-sm-6 img {
+    width: 400px;
+}
+
+}
+
+@media (max-width: 910px){
+.contents3 .col-sm-6 #area2 img {
+    width: 350px;
+}
+
+}
+@media (max-width: 823px){
+.contents3 .col-sm-6 #area2 img {
+    width: 300px;
+}
+
+}
+
+@media (max-width: 767px){
+.contents3 .col-sm-6 #area2 img {
+    width: 450px;
+}
+
+}
+
+@media (max-width: 550px){
+.contents3 .col-sm-6 #area2 img {
+    width: 300px;
+}
+#area3 .col-sm-6 img {
+    width: 150px;
+}
+#area3 .col-sm-6 {
+    width: 200px;
+}
+
+
+
+}
+
+@media (max-width: 1200px){
+table tr td {
+    padding-left: 15px;
+
+}
+#area3 .col-sm-6 {
+    width: 400px;
+
+}
+
+}
+
+
+@media (max-width: 768px){
+#area3 .col-sm-6 {
+    width: 450px;
+}
+#area3 .col-sm-6 img {
+    width: 400px;
+}
+
+
+}
